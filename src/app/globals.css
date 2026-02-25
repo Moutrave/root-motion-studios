@@ -1,26 +1,79 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Base backgrounds — deep navy/dark, cooler than pure black */
+  --color-void: #070C12;
+  --color-void-800: #0D1520;
+  --color-void-700: #152030;
+
+  /* Primary accent — brand cyan (ROOT text color from logo) */
+  --color-plasma: #0092AF;
+  --color-plasma-light: #00B4D8;
+  --color-plasma-glow: #90E0EF;
+
+  /* Secondary accent — brand orange (MOTION + fire/tree from logo) */
+  --color-solar: #DC6A0A;
+  --color-solar-light: #F97E1A;
+  --color-solar-glow: #FFBA7A;
+
+  /* Tertiary — water teal (splash from logo) */
+  --color-neon: #05B1CC;
+  --color-neon-light: #22CEEA;
+
+  /* Text */
+  --color-ash: #E8EDF2;
+  --color-ash-muted: #8FA4B8;
+
+  /* Fonts — Rajdhani matches the logo's bold condensed geometric style */
+  --font-display: var(--font-rajdhani), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+
+  /* Animations */
+  --animate-glow-pulse: glow-pulse 2s ease-in-out infinite;
+  --animate-float: float 3s ease-in-out infinite;
+
+  @keyframes glow-pulse {
+    0%, 100% { box-shadow: 0 0 20px #0092AF55; }
+    50%       { box-shadow: 0 0 40px #0092AF99, 0 0 80px #0092AF33; }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50%       { transform: translateY(-10px); }
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #070C12;
+  --foreground: #E8EDF2;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
+
+/* Glow text utilities — updated to brand colors */
+.text-glow-plasma {
+  text-shadow:
+    0 0 20px #90E0EF,
+    0 0 40px #0092AF;
+}
+
+.text-glow-solar {
+  text-shadow:
+    0 0 20px #FFBA7A,
+    0 0 40px #DC6A0A;
+}
+
+.border-glow-plasma {
+  box-shadow:
+    0 0 0 1px #0092AF,
+    0 0 20px #0092AF44;
 }
