@@ -55,7 +55,8 @@ export function HeroSection() {
 
         <p className="text-ash-muted text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
           Root Motion Studios is a one person game development studio crafting
-          immersive games with real-world impact.
+          immersive games with real-world impact. <br/><br/>
+            
           Our first game is a first-person underwater playground where you get
           to see the world from the points of view of a set of quirky marine creatures, all possessing their own senses.
         </p>
