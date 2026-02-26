@@ -2,12 +2,6 @@ export const STUDIO = {
   name: 'Root Motion Studios',
   founded: '2024',
   tagline: 'We craft world, we give back to our own',
-  story: [
-    'We foster discovery, nurture curiosity, and fight inaction and apathy through engaging and\n\n' +
-    '    atmospheric worlds that appeal to our taste for exploration and our need for connection.\n\n' +
-    '    We envision a world where no change feels too small and no one feels powerless to make a difference,' +
-    '    where play inspires action, curiosity leads to compassion, and entertainment and real-world impact are inseparable'
-  ],
   mission: 'To craft unforgettable games that push the boundaries of interactive storytelling and call people to positive action.',
   highlights: [
     {
@@ -71,6 +65,14 @@ export const TEAM = [
     role: 'Chattes',
     bio: 'Des pets, des poils et du love, sans oublier le vomi car on aime se goinfrer et avaler sans mâcher...',
     color: 'neon',
+  },
+
+  {
+    initials: 'Max',
+    name: 'Maxime',
+    role: 'Breton',
+    bio: 'Dev dev et des collegues nuls',
+    color: 'solar',
   },
 ]
 

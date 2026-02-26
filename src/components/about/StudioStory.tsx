@@ -32,11 +32,17 @@ export function StudioStory() {
         {/* Story text */}
         <FadeInSection delay={0.15}>
           <div className="space-y-6">
-            {STUDIO.story.map((paragraph, i) => (
-              <p key={i} className="text-ash-muted leading-relaxed text-lg whitespace-pre-line">
-                {paragraph}
-              </p>
-            ))}
+            <p className="text-ash-muted leading-relaxed text-lg">
+              We foster <strong>discovery</strong>, nurture <strong>curiosity</strong>, and fight inaction and apathy through engaging and{' '}
+              <span className="text-plasma">atmospheric worlds</span>{' '}
+              that appeal to our taste for exploration and our need for connection.
+            </p>
+            <p className="text-ash-muted leading-relaxed text-lg">
+              We envision a world where no change feels too small and no one feels powerless to make a difference,
+              where play inspires action, curiosity leads to compassion, and entertainment and{' '}
+              <span className="text-plasma">real-world impact</span>{' '}
+              are inseparable.
+            </p>
             <blockquote className="border-l-2 border-plasma pl-6 mt-8">
               <p className="font-display text-plasma text-lg italic">
                 &ldquo;{STUDIO.mission}&rdquo;
