@@ -16,11 +16,15 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Root Motion Studios',
-  description: 'We build worlds. We tell stories. We make games.',
+  title: 'Root Motion Games',
+  description: 'We build worlds. We give back. Indie game studio crafting immersive games with real-world impact.',
+  metadataBase: new URL('https://rootmotion.games'),
   openGraph: {
-    title: 'Root Motion Studios',
-    description: 'Indie game development studio crafting narrative-driven experiences.',
+    title: 'Root Motion Games',
+    description: 'Indie game studio crafting immersive games with real-world impact.',
+    url: 'https://rootmotion.games',
+    siteName: 'Root Motion Games',
+    type: 'website',
   },
 }
 

@@ -5,8 +5,8 @@ import { TeamSection } from '@/components/about/TeamSection'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About | Root Motion Studios',
-  description: 'Learn about Root Motion Studios — who we are, what we believe, and who makes the magic happen.',
+  title: 'About | Root Motion Games',
+  description: 'Learn about Root Motion Games — who we are, what we believe, and the games we make.',
 }
 
 export default function AboutPage() {
