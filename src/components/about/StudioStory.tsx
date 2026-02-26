@@ -34,13 +34,13 @@ export function StudioStory() {
           <div className="space-y-6">
             <p className="text-ash-muted leading-relaxed text-lg">
               We foster <strong>discovery</strong>, nurture <strong>curiosity</strong>, and fight inaction and apathy through engaging and{' '}
-              <span className="text-plasma">atmospheric worlds</span>{' '}
+              <span className="text-solar">atmospheric worlds</span>{' '}
               that appeal to our taste for exploration and our need for connection.
             </p>
             <p className="text-ash-muted leading-relaxed text-lg">
               We envision a world where no change feels too small and no one feels powerless to make a difference,
               where play inspires action, curiosity leads to compassion, and entertainment and{' '}
-              <span className="text-plasma">real-world impact</span>{' '}
+              <span className="text-solar">real-world impact</span>{' '}
               are inseparable.
             </p>
             <blockquote className="border-l-2 border-plasma pl-6 mt-8">
