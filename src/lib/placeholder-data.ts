@@ -8,18 +8,26 @@ export const STUDIO = {
       'while sharing tools and knowledge for those who want to go further and make a difference in the real world. ',
   highlights: [
     {
-      title: 'Handcrafted Worlds',
-      description: 'Every corner of our worlds is intentional and worth exploring. No procedural filler, no empty spaces — just living, breathing environments full of secrets, wonder, and surprises.',
+      title: 'Games with Causes',
+      description: 'Every Root Motion game is built around something we believe is worth caring about, whether that\'s the ocean depths, ' +
+          'the animal kingdom, distant galaxies, or the stubborn dignity of goats. ' +
+          'We make games about the things and causes that genuinely excite us. ' +
+          'And because a portion of every sale goes directly to causes related to each game, ' +
+          'playing with us means putting something back into the world you\'re living in.',
       accent: 'plasma' as const,
     },
     {
-      title: 'Fresh Perspectives',
-      description: 'See, hear, and feel the world through eyes that aren\'t your own. Our games offer unique ways to experience rich, atmospheric environments that stay with you long after you stop playing.',
+      title: 'Weird, Wonderful, and Wilfully Different',
+      description: 'We don\'t do generic. Root Motion games are a little quirky, occasionally bizarre, and always designed to surprise you. ' +
+          'We believe the best games make you laugh, make you think, and make you see something familiar in a completely new way. ' +
+          'Expect the unexpected — and expect to have a very good time getting there.',
       accent: 'solar' as const,
     },
     {
-      title: 'Play With Purpose',
-      description: 'Our games are rooted in real-world wonders. While you explore and restore, you\'ll discover the causes at the heart of each world — and clear paths to make a difference beyond the screen.',
+      title: 'Rooted in the Real',
+      description: 'Our games start with genuine curiosity about how the world actually works — the science, the ecosystems, the creatures, the chaos. ' +
+          'We dig deep into research so you don\'t have to, then turn what we find into experiences that feel authentic and alive. ' +
+          'The facts are always in there. They\'re just way more fun than a textbook.',
       accent: 'neon' as const,
     },
   ],
