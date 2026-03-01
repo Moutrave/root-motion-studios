@@ -18,7 +18,7 @@ export function FeaturedGame() {
             {/* Game cover */}
             <Link href="/games/suns-of-the-abyss" className="relative aspect-square rounded-full overflow-hidden border border-solar/200 group block">
               <Image
-                src="/images/SotA_DysonSphere_A.png"
+                src="/images/chinese-artificial-sun.jpg"
                 alt="Suns of the Abyss"
                 fill
                 className="object-cover object-center"
