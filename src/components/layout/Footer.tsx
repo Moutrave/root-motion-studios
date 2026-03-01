@@ -47,6 +47,12 @@ export function Footer() {
             Crafted with passion — not by committee.
           </p>
         </div>
+
+        <div className="mt-4 text-center">
+          <p className="text-ash-muted/50 text-xs italic">
+            Note: Images on this site are placeholders (some AI-generated) and will be replaced with actual game artwork.
+          </p>
+        </div>
       </div>
     </footer>
   )
