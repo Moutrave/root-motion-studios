@@ -3,6 +3,7 @@ import Link from 'next/link'
 const LINKS = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
+  { label: 'News', href: '/news' },
   { label: 'Suns of the Abyss', href: '/games/suns-of-the-abyss' },
 ]
 
@@ -17,7 +18,7 @@ export function Footer() {
               Root Motion Studios
             </p>
             <p className="text-ash-muted text-sm max-w-xs">
-              We build worlds. We tell stories. We make games.
+              We build worlds. We give back.
             </p>
           </div>
 

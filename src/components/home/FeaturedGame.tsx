@@ -48,9 +48,10 @@ export function FeaturedGame() {
                 {SUNS_OF_THE_ABYSS.tagline}
               </p>
 
-              <p className="text-ash-muted leading-relaxed mb-8 whitespace-pre-line">
-                {SUNS_OF_THE_ABYSS.description}
-              </p>
+              <p
+                className="text-ash-muted leading-relaxed mb-8"
+                dangerouslySetInnerHTML={{ __html: SUNS_OF_THE_ABYSS.description }}
+              />
 
               <Button variant="solar" href="/games/suns-of-the-abyss">
                 Learn More

@@ -10,6 +10,7 @@ import { cn } from '@/components/ui/cn'
 const NAV_LINKS = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
+  { label: 'News', href: '/news' },
   { label: 'Suns of the Abyss', href: '/games/suns-of-the-abyss' },
 ]
 

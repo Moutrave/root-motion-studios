@@ -11,7 +11,7 @@ export function MissionValues() {
           <SectionHeading accent="solar">What We Believe</SectionHeading>
         </FadeInSection>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {STUDIO.values.map((value, i) => (
             <FadeInSection key={value.name} delay={i * 0.1}>
               <Card className="flex items-start gap-5 h-full">

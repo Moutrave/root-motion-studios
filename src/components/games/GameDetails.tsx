@@ -30,9 +30,10 @@ export function GameDetails() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
           {/* Description */}
           <div className="lg:col-span-2">
-            <p className="text-ash-muted text-lg leading-relaxed whitespace-pre-line">
-              {SUNS_OF_THE_ABYSS.description}
-            </p>
+            <p
+              className="text-ash-muted text-lg leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: SUNS_OF_THE_ABYSS.description }}
+            />
           </div>
 
           {/* CTA */}
